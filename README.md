@@ -1,2 +1,2 @@
-# UIN24_webshop_Niklas
-Utvikling i Interaktive nettsteder
+# UIN24_webshop_Marius
+LEGOdudes webshop - en oppfriskning
