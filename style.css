@@ -97,12 +97,59 @@
         right: 0;
         padding: 1rem;
     }
+    #cart h2 {
+        font-size: 1.8rem;
+    }
+    /* handlevogn produktliste */
     
+    #cart ul {
+        padding: 0;
+        list-style-type: none;
+        width: 100%;
+    }
+    #cart ul li{
+        padding: 0.25rem;
+        border-bottom: 1px solid var(--green);
+    }
+    #cart ul li button{
+        background-color: var(--red);
+        color: var(--white);
+        width: 1.5rem;
+        height: 1.5rem;
+        text-align: center;
+        border-radius: 50%;
+        min-width: 1rem;
+        cursor: pointer;
+    }
+    #cart ul li span {
+        display: inline-block;
+        box-sizing: border-box;
+    }
+   
+   
+    .title{
+    width: calc(100% - 8.5rem);
+    }
+    .price{
+    width: 4rem;
+    text-align: right; 
+    }
+    .quantity{
+    width: 2.5rem;
+    text-align: right;
+}    
+    .functions { 
+    width: 3rem;
+    text-align: right;
+    
+
+}
+
     nav {
         background-color: var(--red);
     }
 
-    ul {
+    nav ul {
         padding: 0;
         list-style-type: none;
         display: flex;
@@ -141,6 +188,7 @@
         width: 100%;
         text-align: center;
         text-transform: uppercase;
+        margin: 0;
     }
 
     main article {
