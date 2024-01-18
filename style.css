@@ -80,6 +80,11 @@ header button span {
     top: 76px;
     right: 0;
     padding: 1rem;
+    display: none;
+    transition: ease-in-out .5s;
+}
+#cart .show{
+    display: block;
 }
 #cart h2 {
     font-size: 1.2rem;
