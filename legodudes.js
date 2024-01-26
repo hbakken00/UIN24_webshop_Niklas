@@ -26,6 +26,6 @@ const products = [
  */
 let cart = [
     
-    {product: 1, quantity: 1}]
+    ]
 
     
